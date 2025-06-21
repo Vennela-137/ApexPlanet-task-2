@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="to.css">
+</head>
+<body>
+  <header>
+    <h1>My To-Do List</h1>
+  </header>
+
+  <section class="todo-container animate">
+    <input type="text" id="taskInput" placeholder="Enter a task...">
+    <div class="button-group">
+      <button onclick="addTask()">Add Task</button>
+      <button onclick="resetTasks()">Reset</button>
+    </div>
+    <ul id="taskList"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ApexPlanet Created By R.v :)</p>
+  </footer>
+
+  <script src="to.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background:  rgb(177, 155, 159);
+  color: #222;
+}
+
+header {
+  background: #c5ccc9;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+header a {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.todo-container {
+  width: 50%;
+  height: 100%;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  background:whitesmoke;
+  color: rgb(53, 78, 81);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: #222;
+}
+
+button:hover {
+  background:rgb(150, 110, 110);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e9ecef;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #dee2e6;
+}
+
+footer {
+  text-align: center;
+  padding-top: 250px;
+  background:  rgb(177, 155, 159);
+  color: white;
+  margin-top: 50px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
